@@ -305,6 +305,45 @@ footer{
    height: 1px;
 }
 
+@media screen and (max-width: 980px){
+
+       #nav-bar{ 
+        /* position: absolute; */
+        z-index: 1;
+        display: block;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        width: 80%;
+        height: 70vh;
+        padding: 2%;
+        /* background-color: black; */
+    }
+
+        #nav-items{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 10%;
+        }
+
+    .nav-header{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25%;
+            margin-bottom: 50%;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+            color: white;
+        }
+
+    
+
+
+}
+
 
 @media screen and (max-width:600px) {
 
